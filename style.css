@@ -138,6 +138,10 @@ img {
     width: 100%;
     margin-bottom: 50px;
   }
+
+  #why .row img {
+    height: 80px;
+  }
 }
 
 /* RESPONSIVE <420px */
@@ -158,8 +162,8 @@ img {
   }
 
   img {
-    height: 100%;
-    width: 75%;
+    height: 150px;
+    object-fit: contain;
   }
 
   #lezioni .row > .left,
@@ -167,6 +171,8 @@ img {
     width: 100%;
     float: none;
     margin-bottom: 50px;
+    text-align: center;
+    text-align-last: center;
   }
 
   #steps .row > .left,
@@ -174,5 +180,20 @@ img {
   #steps .row > .right {
     float: none;
     width: 100%;
+    text-align: center;
+    text-align-last: center;
+  }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    text-align-last: center;
+  }
+
+  #why .row img {
+    height: 80px;
   }
 }
